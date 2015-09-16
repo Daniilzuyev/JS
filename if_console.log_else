@@ -1,0 +1,8 @@
+var name1 = "Vera";
+var name2 = "Dimas";
+if ( name1 < name2){
+    console.log("We did it!");
+    }
+    else{
+    console.log("I finished my first course!");
+        }
