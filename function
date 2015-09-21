@@ -1,0 +1,4 @@
+function foodDemand(food) {
+    console.log("I want to eat" + " " + food);
+}
+foodDemand("meet");
