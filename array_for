@@ -1,0 +1,5 @@
+var cities = ["Moscow", "Saint-Petsburg", "Minsk", "Kiev", "Chicago", "Paris"];
+
+for (var i = 0; i < cities.length; i++) {
+    console.log("I would like to visit " + cities[i]);
+}
