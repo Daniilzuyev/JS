@@ -1,0 +1,5 @@
+var compare = function(choise1, choise2){
+    if(choise1 === choise2){
+    return "The result is a tie!";
+    } 
+}
