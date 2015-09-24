@@ -1,0 +1,13 @@
+for (var i =0; i < 20; i++){
+    console.log(i);
+    }
+var ht = true;
+while (ht){
+    console.log("hi, sir");
+    ht = false;
+    }
+var gf = false;    
+do{
+    console.log("hi, sir");
+    }
+while (gf);
