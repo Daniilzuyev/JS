@@ -1,0 +1,8 @@
+var myCondition = true;
+
+  while(myCondition){
+      console.log("Looped once!");
+      myCondition = false;
+};
+
+soloLoop();
