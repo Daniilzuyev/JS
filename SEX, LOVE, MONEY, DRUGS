@@ -1,0 +1,30 @@
+var user = prompt("SEX, LOVE, MONEY, DRUGS").toUpperCase();
+switch (user){
+    case'SEX':
+    var man = prompt("are you man? (yes or no)").toUpperCase();
+    var woman = prompt("are you woman? (yes or no)").toUpperCase();
+    if(man === 'YES' || woman === 'YES'){
+        console.log("Go to prstitute");}
+        else{
+        console.log("go fuck yourdelf");
+            }
+        break;
+    case'LOVE':
+        console.log("you need training your soul and your heart");
+        break;
+    case'MONEY':
+        var money = prompt ("Do you have any skills to get money?(yes or no)").toUpperCase();
+        var experince = prompt ("Do you have any experince to get money?(yes or no)").toUpperCase();
+        if (money === 'YES' && experince === 'YES'){
+        console.log("to get money for you will more easy");
+        }
+        else{
+        console.log("you should be brave and smart");
+            }
+        break;
+    case'DRUGS':
+        console.log("go to drug-diller");
+        break;
+    default:
+        console.log("Choice your desire");
+    }
