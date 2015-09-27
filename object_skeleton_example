@@ -1,0 +1,16 @@
+ar myObj = new Object();
+myObj.key1 = value;
+myObj['key2'] = value;
+
+
+var object1 = new Object();
+object1.name = "Petya";
+object1['surname'] = "Ivanov";
+
+var object2 = new Object();
+object2.name = "Vasya";
+object2['surname'] = "Petrov";
+
+var object3 = new Object();
+object3.name = "Ivan";
+object3.surname = "sdgf";
