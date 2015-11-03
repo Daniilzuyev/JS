@@ -1,0 +1,10 @@
+function showMessage(from, text) {
+  from = '**' + from + '**'; // меняем локальную переменную from
+  alert( from + ': ' + text );
+}
+
+var from = "Маша";
+
+showMessage(from, "Привет");
+
+alert( from ); // старое значение from без изменений, в функции была изменена копия
